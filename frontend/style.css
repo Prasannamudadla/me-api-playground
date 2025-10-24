@@ -1,0 +1,124 @@
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f9fc;
+  color: #222;
+}
+
+header {
+  background-color: #0078d7;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+p {
+  line-height: 1.5;
+}
+ul {
+  padding-left: 1.2rem;
+}
+.skills-list li {
+  display: inline-block;
+  background: #e0f0ff;
+  color: #0366d6;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+/* Profile links */
+.profile-links a {
+  color: #0078d7;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+.profile-links a:hover {
+  text-decoration: underline;
+}
+
+/* Search box */
+.search-box {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+input[type="text"] {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background-color: #005ea6;
+}
+
+/* Project cards */
+.project-card {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  transition: box-shadow 0.2s;
+}
+.project-card:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+.project-skills {
+  margin-top: 0.5rem;
+}
+.skill-badge {
+  display: inline-block;
+  background: #e0f0ff;
+  color: #0366d6;
+  padding: 3px 8px;
+  margin: 2px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+.github-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 5px 10px;
+  background-color: #24292e;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+.github-btn:hover {
+  background-color: #444c56;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}

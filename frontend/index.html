@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Me-API Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Me-API Playground</h1>
+  </header>
+
+  <div class="container">
+    <h2 id="name"></h2>
+    <p id="education"></p>
+    
+    <div id="profile-links" class="profile-links"></div>
+
+    <h3>Skills</h3>
+    <ul id="skills" class="skills-list"></ul>
+
+    <h3>Projects</h3>
+    <div class="search-box">
+      <input id="search" placeholder="Search by skill...">
+      <button onclick="loadProjects()">Search</button>
+    </div>
+    <div id="projects"></div>
+  </div>
+
+  <footer>
+    <p>Built by Mudadla Sai Prasanna |
+      <a href="https://github.com/Prasannamudadla" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
