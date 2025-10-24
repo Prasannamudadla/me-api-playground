@@ -15,6 +15,12 @@ def query_db(query, args=(), one=False):
     con.close()
     return (rv[0] if rv else None) if one else rv
 
+# Serve frontend
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+
 @app.route("/health")
 def health():
     return jsonify({"status": "ok"}), 200
