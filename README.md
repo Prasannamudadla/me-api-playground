@@ -82,6 +82,7 @@ CREATE TABLE projects (
 ```bash
 git clone https://github.com/Prasannamudadla/me-api-playground.git
 cd me-api-playground
+cd backend 
 
 # (recommended: create and activate virtualenv)
 pip install -r requirements.txt
