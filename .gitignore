@@ -2,7 +2,6 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-backend/profile.db
 .DS_Store
 .vscode/
 *.log
