@@ -20,7 +20,7 @@ VALUES (?, ?, ?, ?, ?, ?)
 # Skills
 skills = [
     "Python", "C", "C++", "HTML", "CSS", "JavaScript", "React",
-    "SQL", "SQLite", "Flask", "Tailwind CSS", "Latex"
+    "SQL", "SQLite", "Flask", "Tailwind CSS", "Latex",
     "Git", "Linux", "Data Structures and Algorithms"
 ]
 cur.executemany("INSERT INTO skills (name) VALUES (?)", [(s,) for s in skills])
